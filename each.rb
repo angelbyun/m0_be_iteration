@@ -24,5 +24,7 @@ end
 words = ["car", "bike", "bus", "van", "scooter", "truck", "rv"]
 
 words.each do |word|
-  puts word.length == 3
+  if word.length == 3
+    puts [word]
+  end
 end
